@@ -5,6 +5,6 @@ import {DateTimeButton} from './DateTimeButton';
 describe('DateTimeButton', () => {
   it('should render', () => {
     const wrapper = shallow(<DateTimeButton />);
-    expect(wrapper).toMatchSnapshot();
+    expect(wrapper).toBeTruthy();
   });
 });
