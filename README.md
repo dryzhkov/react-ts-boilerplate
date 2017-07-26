@@ -1,11 +1,11 @@
 # React-TypeScript
 
-Minimal boilerplate for web apps using React and TypeScript with TSX.
+Minimal boilerplate for building web apps using React and TypeScript with TSX.
+This setup utilizes Webpack for bundling and Jest + Enzyme for unit testing.
 
 Initial run:
 
 * Install Node.js
 * `npm install`
 * `npm start`
-
-For simplicity sake Webpack Hot Module Reloading is disabled.
+* `npm test`
